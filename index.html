@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CruzTech - Tech Support</title>
+
+  <!-- Bootstrap 5 CDN (CSS Part)-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Bootstrap (JavaScript Part) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+  <!-- Bootstrap Version 5 Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+  <!-- Bootswatch Theme (Zephyr) -->
+  <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css">
+
+
+  <!-- Fontawesome CDN -->
+  <script src="https://kit.fontawesome.com/e369f96997.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="m-0 p-0" style="overflow-x: hidden;">
+
+
+  <div class="container-fluid bg-primary p-0">
+
+
+
+    <div class="d-flex mx-2">
+      <a class="navbar-brand text-light" href="#"><i class="bi bi-code-slash text-light"></i> CruzTech - Tech
+        Support</a>
+    </div>
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#support">Support</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#services">Network Troubleshooting</a></li>
+                <li><a class="dropdown-item" href="#services">Server Setup</a></li>
+                <li><a class="dropdown-item" href="#services">Desktop Problems</a></li>
+              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#partners">Our Partners</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog"> <i class="fab fa-bitcoin"></i> Crypto Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hours">Hours</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Search Bar -->
+    <form class="d-flex mt-4 w-75 m-auto" style="max-width: 500px;">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+
+
+    <!-- Showcase Section -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+      <h2 class="text-center fw-bold text-dark mt-5 mb-4 display-4">Tech Troubles? <b class="text-light">We've got you
+          covered</b></h2>
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../assets/computer.jpeg" class="d-block m-auto w-100" alt="Carousel Picture 1"
+            style="max-width: 1000px; height: 400px;">
+          <div class="carousel-caption d-none d-sm-block">
+            <h5 class="text-light">First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/bionic.jpeg" class="d-block m-auto w-100" alt="Carousel Picture 2"
+            style="max-width: 1000px; height: 400px">
+          <div class="carousel-caption d-none d-sm-block">
+            <h5 class="text-light">Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/headset.jpeg" class="d-block m-auto w-100" alt="Carousel Picture 3"
+            style="max-width: 1000px; height: 400px">
+          <div class="carousel-caption d-none d-sm-block">
+            <h5 class="text-light">Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+    <!-- Support -->
+
+    <div id="support"></div>
+
+    <div class="row d-flex flex-row">
+
+      <h2 class="display-4 fw-bold text-center text-light mt-4 mb-4">Support </h2>
+
+      <div class="col-md-3 col-12 d-flex flex-column text-center" style="border-right: 1px solid white;">
+        <i class="bi bi-award fs-1"></i>
+        <h6>Award-Winning Technicians</h6>
+        <p>Our technicians have over 100+ years of combined experience to draw from</p>
+      </div>
+      <hr class="d-md-none d-block border border-light">
+
+
+      <div class="col-md-3 col-12 d-flex flex-column text-center" style="border-right: 1px solid white;">
+        <i class="bi bi-award fs-1"></i>
+        <h6>Award-Winning Technicians</h6>
+        <p>Our technicians have over 100+ years of combined experience to draw from</p>
+      </div>
+      <hr class="d-md-none d-block border border-light">
+
+
+      <div class="col-md-3 col-12 d-flex flex-column text-center" style="border-right: 1px solid white;">
+        <i class="bi bi-award fs-1"></i>
+        <h6>Award-Winning Technicians</h6>
+        <p>Our technicians have over 100+ years of combined experience to draw from</p>
+      </div>
+      <hr class="d-md-none d-block border border-light">
+
+
+      <div class="col-md-3 col-12 d-flex flex-column text-center">
+        <i class="bi bi-award fs-1"></i>
+        <h6>Award-Winning Technicians</h6>
+        <p>Our technicians have over 100+ years of combined experience to draw from</p>
+      </div>
+      <hr class="d-md-none d-block border border-light">
+
+
+      <div class="d-flex flex-row justify-content-center">
+        <a class="btn btn-danger text-light m-4" data-bs-toggle="modal" data-bs-target="#getHelp">Get Help</a>
+        <a href="#contact" class="btn btn-success text-light m-4">Contact Us</a>
+      </div>
+
+
+    </div>
+
+
+    <!-- Get Help Modal -->
+    <div class="modal fade" id="getHelp">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Help Request</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Would you like to speak to a technology specialist?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">No</button>
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Yes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Services -->
+
+    <hr class="border border-1 border-light">
+    <div id="services">
+
+      <h2 class="text-center text-white fw-bold mt-4 mb-4 display-4">Our Services</h2>
+
+
+      <div class="row d-flex flex-row justify-content-center">
+
+        <div class="col-md-5 col-10 card m-3 p-0">
+          <img src="../assets/callcenter.jpeg" class="w-100" height="300px" alt="Service 1">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="d-flex flex-row justify-content-center">
+              <a href="#" class="btn btn-primary m-2">Learn More</a>
+              <a href="#" class="btn btn-primary m-2">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5 col-10 card m-3 p-0">
+          <img src="../assets/coding.jpeg" height="300px" class="w-100" alt="Service 2">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="d-flex flex-row justify-content-center">
+              <a href="#" class="btn btn-primary m-2">Learn More</a>
+              <a href="#" class="btn btn-primary m-2">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="row d-flex flex-row justify-content-center">
+
+        <div class="col-md-5 col-10 card m-3 p-0">
+          <img src="../assets/hardware.jpeg" height="300px" class="w-100" alt="Service 3">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="d-flex flex-row justify-content-center">
+              <a href="#" class="btn btn-primary m-2">Learn More</a>
+              <a href="#" class="btn btn-primary m-2">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5 col-10 card m-3 p-0">
+          <img src="../assets/team.jpeg" height="300px" class="w-100" alt="Service 4">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="d-flex flex-row justify-content-center">
+              <a href="#" class="btn btn-primary m-2">Learn More</a>
+              <a href="#" class="btn btn-primary m-2">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+
+
+    <!-- Partners -->
+    <hr class="border border-1 border-light">
+    <div id="partners" class="mt-4 mb-4">
+      <h2 class="text-center text-light display-4 mt-4 mb-4 fw-bold">Our Partners</h2>
+      <div class="d-flex flex-row justify-content-evenly">
+        <i class="fab fa-google display-4 text-light m-2"></i>
+        <i class="fab fa-amazon display-4 text-light m-2"></i>
+        <i class="fab fa-behance display-4 text-light m-2"></i>
+        <i class="fab fa-cc-amex display-4 text-light m-2"></i>
+        <i class="fab fa-cc-paypal display-4 text-light m-2"></i>
+        <i class="fab fa-cc-visa display-4 text-light m-2"></i>
+        <i class="fab fa-etsy display-4 text-light m-2"></i>
+      </div>
+
+    </div>
+    <hr class="border border-1 border-light">
+
+
+
+    <!-- Blog -->
+
+    <div id="blog"></div>
+    <div class="row d-flex flex-row justify-content-center">
+
+      <h2 class="text-center text-light fw-bold mt-4 mb-4 display-4">Crypto Blog</h2>
+
+      <div class="col-md-3 col-10 card m-1 p-0">
+        <img src="../assets/crypto2.jpeg" class="w-100" alt="Cryptocurrency Picture"
+          style="width: 200px; height: 200px;">
+        <div class="card-body">
+          <h5 class="card-title"> <i class="fab fa-bitcoin"></i> Our Take On Bitcoin</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <div class="d-flex flex-row justify-content-center">
+            <a href="#" class="btn btn-primary m-2">Read Blog >></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-10 card m-1 p-0">
+        <img src="../assets/ether1.jpeg" class="w-100" alt="Picture of Ethereum" style="width: 200px; height: 200px;">
+        <div class="card-body">
+          <h5 class="card-title"> <i class="fab fa-ethereum"></i> Our Take On Ethereum</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <div class="d-flex flex-row justify-content-center">
+            <a href="#" class="btn btn-primary m-2">Read Blog >></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-10 card m-1 p-0">
+        <img src="../assets/crypto1.jpeg" class="w-100" alt="Picture of Cryptocurrency"
+          style="width: 200px; height: 200px;">
+        <div class="card-body">
+          <h5 class="card-title"><i class="fab fa-bitcoin"></i> Our Take On Bitcoin</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <div class="d-flex flex-row justify-content-center">
+            <a href="#" class="btn btn-primary m-2">Read Blog >></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <hr class="border border-1 border-light">
+
+
+
+    <!-- Testimonials -->
+    <div id="testimonials">
+
+      <div class="row d-flex flex-row justify-content-center">
+
+        <h2 class="text-center display-4 text-light mt-4 mb-4 fw-bold">Testimonials</h2>
+
+        <div class="col-md-5 col-10 card m-2 p-0">
+          <img src="../assets/person1.jpeg" class="w-100" alt="Testimonial 1" height="300px">
+          <div class="card-body">
+            <h5 class="card-title">Testimonial 1</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+
+        <div class="col-md-5 col-10 card m-2 p-0">
+          <img src="../assets/person2.jpeg" class="w-100" alt="Testimonial 2" height="300px">
+          <div class="card-body">
+            <h5 class="card-title">Testimonial 2</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+
+        <div class="col-md-5 col-10 card m-2 p-0">
+          <img src="../assets/person3.jpeg" class="w-100" alt="Testimonial 3" height="300px">
+          <div class="card-body">
+            <h5 class="card-title">Testimonial 3</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+
+        <div class="col-md-5 col-10 card m-2 p-0">
+          <img src="../assets/person4.jpeg" class="w-100" alt="Testimonial 4" height="300px">
+          <div class="card-body">
+            <h5 class="card-title">Testimonial 4</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+
+    <!-- Info -->
+    <hr class="border border-1 border-light">
+    <div id="info"></div>
+
+
+
+
+
+
+
+
+
+
+    <!-- Contact Form  -->
+
+    <div id="contact" class="m-auto pb-4 mt-4" style="width: 90%; max-width: 800px;">
+
+      <ul class="list-group border border-1 border-light pb-4 p-2" style="border-radius: 15px;">
+
+        <h2 class="mx-3 text-light fw-bold mt-4 mb-4">Get In Touch</h2>
+        <label for="Name" class="mx-3 text-light">Name</label>
+        <input type="text" class="list-group-item m-2" placeholder="&#128100; John Doe" style="border-radius: 15px;">
+
+        <label for="password" class="mx-3 text-light">Password</label>
+        <input type="password" class="list-group-item m-2" placeholder="&#128274; Password123"
+          style="border-radius: 15px;">
+
+        <label for="email" class="mx-3 text-light">Email</label>
+        <input type="email" class="list-group-item m-2" placeholder="&#9993; johndoe@gmail.com"
+          style="border-radius: 15px;">
+
+        <label for="Phone Number" class="mx-3 text-light">Phone Number</label>
+        <input type="tel" class="list-group-item m-2" placeholder="&#128222; 123-456-7890" style="border-radius: 15px;">
+
+
+        <div class="d-flex flex-row mt-2 mb-2 align-content-center">
+          <input type="checkbox" name="agreetoTerms" id="agree" class="m-2">
+          <label for="checkbox" class="text-light" style="margin-top: 3px;">I agree to terms & conditions</label>
+        </div>
+
+        <button class="btn btn-success w-50 d-block mt-4 rounded-pill">Submit</button>
+
+      </ul>
+
+
+
+    </div>
+    <hr class="border border-1 border-light">
+
+
+
+
+    <!-- Footer -->
+
+
+
+    <footer id="footer" class="text-white text-center text-lg-start bg-primary">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div id="about" class="col-lg-4 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4 fw-bold">About CruzTech</h5>
+
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+              voluptatum deleniti atque corrupti.
+            </p>
+
+            <p>
+              Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
+              molestias.
+            </p>
+
+            <div class="mt-4">
+              <!-- Facebook -->
+              <a href="#" class="btn btn-primary btn-lg"><i class="fab fa-facebook"></i></a>
+              <!-- Twitter -->
+              <a href="#" class="btn btn-primary btn-lg"><i class="fab fa-twitter"></i></a>
+              <!-- Linkedin -->
+              <a href="#" class="btn btn-primary btn-lg"><i class="fab fa-linkedin"></i></a>
+              <!-- Instagram -->
+              <a href="#" class="btn btn-primary btn-lg"><i class="fab fa-instagram"></i></a>
+              <!-- Tik Tok -->
+              <a href="#" class="btn btn-primary btn-lg"><i class="fab fa-tiktok"></i></a>
+              <!-- Snapchat -->
+              <a href="#" class="btn btn-primary btn-lg"><i class="fab fa-snapchat"></i></a>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase pb-1 fw-bold">Search something</h5>
+
+            <div class="form-outline form-white mb-4">
+              <input type="text" id="formControlLg" class="form-control form-control-lg" />
+
+            </div>
+
+            <ul class="fa-ul" style="margin-left: 1.65em;">
+              <li class="mb-3">
+                <span class="fa-li"><i class="fas fa-home"></i></span><span class="m-2">Milford, DE 19963, US</span>
+              </li>
+              <li class="mb-3">
+                <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="m-2">nick@gmail.com</span>
+              </li>
+              <li class="mb-3">
+                <span class="fa-li"><i class="fas fa-phone"></i></span><span class="m-2">+ 123-456-7890</span>
+              </li>
+              <li class="mb-3">
+                <span class="fa-li"><i class="fas fa-print"></i></span><span class="m-2">+ 789-456-123</span>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div id="hours" class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4 fw-bold">Opening hours</h5>
+
+            <table class="table text-center text-white">
+              <tbody class="font-weight-normal">
+                <tr>
+                  <td>Mon - Thu:</td>
+                  <td>8am - 9pm</td>
+                </tr>
+                <tr>
+                  <td>Fri - Sat:</td>
+                  <td>8am - 1am</td>
+                </tr>
+                <tr>
+                  <td>Sunday:</td>
+                  <td>9am - 10pm</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4 bg-dark">
+        © 2022 Copyright:
+        <a class="text-white" href="#">Cruztech.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+
+
+  </div>
+
+
+</body>
+
+</html>
